@@ -1,0 +1,2 @@
+angular
+    .module('presidentsApp', ['firebase']);

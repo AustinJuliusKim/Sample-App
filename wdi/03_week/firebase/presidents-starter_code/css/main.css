@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic);
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { display:block; zoom:1; }
+
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: "IM Fell English", Georgia, "Times New Roman";
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 0 0 0;
+	color: #262626;
+}
+
+.government {
+	display: block;
+	color: white;
+	text-align: center; 
+	background: #262626;
+	padding: 2em;
+}
+
+h1 { 
+	font-family: "IM Fell English", Georgia, "Times New Roman";
+	line-height: 1.1;
+	font-size: 2.4em;
+}
+
+
+section {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.president {
+	margin: 0 auto;
+}
+
+form { text-align: left; }
+label { display:block; margin: 1em; }
+input {
+	display: inline-block;
+	padding: 0.382em;
+	border: none;
+	font-family: "IM Fell English", Georgia, "Times New Roman";
+	font-size: 1.2em; 
+	margin: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+input[type=submit]{
+	margin: 1rem auto;
+	background: black;
+	width: 100%;
+	color: white;
+}
+
+.president a.remove {
+	color: silver;
+	margin-left: 1em;
+	display: inline-block;
+}
+
+form input {
+	width: 100%;
+}
